@@ -21,8 +21,8 @@ jobs:
           mkdir -p build
           zip -r "build/CPvP_by_ShadowForge_V1_1.21.11_PLAYER_KITS.zip" pack.mcmeta data
 
-      - name: Upload ZIP
+            - name: Upload ZIP
         uses: actions/upload-artifact@v4
         with:
           name: CPvP_by_ShadowForge_V1_1.21.11_PLAYER_KITS
-          path: build/CPvP_by_ShadowForge_V1_1.21.11_PLAYER_KITS.zip.zip
+          path: build/*.zip
