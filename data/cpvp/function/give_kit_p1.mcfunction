@@ -1,0 +1,16 @@
+clear @a[tag=cpvp_p1]
+give @a[tag=cpvp_p1] end_crystal 192
+give @a[tag=cpvp_p1] netherite_sword 1
+enchant @a[tag=cpvp_p1] sharpness 5
+give @a[tag=cpvp_p1] respawn_anchor 64
+give @a[tag=cpvp_p1] obsidian 128
+give @a[tag=cpvp_p1] glowstone 128
+give @a[tag=cpvp_p1] experience_bottle 128
+give @a[tag=cpvp_p1] ender_pearl 64
+give @a[tag=cpvp_p1] totem_of_undying 15
+item replace entity @a[tag=cpvp_p1] weapon.offhand with minecraft:totem_of_undying
+item replace entity @a[tag=cpvp_p1] armor.head with minecraft:netherite_helmet
+item replace entity @a[tag=cpvp_p1] armor.chest with minecraft:netherite_chestplate
+item replace entity @a[tag=cpvp_p1] armor.legs with minecraft:netherite_leggings
+item replace entity @a[tag=cpvp_p1] armor.feet with minecraft:netherite_boots
+enchant @a[tag=cpvp_p1] protection 4
